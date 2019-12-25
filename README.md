@@ -12,3 +12,25 @@
                     運行時期
 
 以下僅示範多載的實作
+
+QQQ.h
+
+           #import <Foundation/Foundation.h>
+           
+           @interface QQQ: NSObject
+           {
+              int p;
+           }
+           
+           -(void)setP: (int)k;
+           -(int) setP;
+           -(void)printP;
+           
+           @end
+
+QQQ.m
+
+
+
+
+main.h

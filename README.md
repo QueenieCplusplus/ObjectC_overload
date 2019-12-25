@@ -30,7 +30,27 @@ QQQ.h
 
 QQQ.m
 
-
-
+           #import "QQQ.h"
+           
+           @implementation QQQ
+           
+           -(void)setP: (int)k
+           {
+              p = k;
+           }
+           
+           
+           -(int) setP
+           {
+              return p;
+           }
+           
+           
+           -(void)printP
+           {
+              NSLog(@"%i",p);
+           }
+          
+           @end
 
 main.h

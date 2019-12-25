@@ -54,3 +54,21 @@ QQQ.m
            @end
 
 main.h
+
+          #import<Foundation/Foundation.h>
+          #import"QQQ.h"
+          
+          int main(int argc, const char * argv[])
+          {
+          
+            QQQ *q=[[QQQ alloc]init];
+          
+            [q setP: 99];
+            
+            [q setP];
+            
+            [q printP];   
+          
+                 return 0;
+          
+          }
